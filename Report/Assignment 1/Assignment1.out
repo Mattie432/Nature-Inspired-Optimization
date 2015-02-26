@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Task}{}% 2
+\BOOKMARK [1][-]{section.3}{Detailed Instructions}{}% 3
+\BOOKMARK [1][-]{section.4}{Implementation}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{\(1+1\) evolution strategy algorithm}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Fitness Function}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.3}{Fitness Checking}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.4}{Initial search point}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.5}{Output File}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.6}{Uniform Mutation Algorithm}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.7}{Non-Uniform Mutation Algorithm}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.8}{Gaussian Mutation}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.9}{ \(1+1\) evolution strategy with 1 5-rule}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.10}{Software}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Experimental Results}{}% 15
+\BOOKMARK [2][-]{subsection.5.1}{Non-Uniform Mutation with parameter b \1730.05, 1.0, 10.0, 20.0 \175 }{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.2}{Gaussian mutation without 1/5-rule and parameter \1730.05, 0.5, 1.0, 10.0\175}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.3}{Comparison of Uniform Mutation, Gaussian mutation with 1/5 rule and the ‘best’ parameter setting for non-uniform and Gaussian mutation without 1/5 rule.}{section.5}% 18
+\BOOKMARK [1][-]{section.6}{References}{}% 19

@@ -1,0 +1,20 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {section}{\numberline {2}Task}{3}{section.2}
+\contentsline {section}{\numberline {3}Detailed Instructions}{3}{section.3}
+\contentsline {section}{\numberline {4}Implementation}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}(1+1) evolution strategy algorithm}{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Fitness Function}{4}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Fitness Checking}{5}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Initial search point}{5}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Output File}{5}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Uniform Mutation Algorithm}{5}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Non-Uniform Mutation Algorithm}{6}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}Gaussian Mutation}{6}{subsection.4.8}
+\contentsline {subsection}{\numberline {4.9} (1+1) evolution strategy with 1 5-rule}{7}{subsection.4.9}
+\contentsline {subsection}{\numberline {4.10}Software}{7}{subsection.4.10}
+\contentsline {section}{\numberline {5}Experimental Results}{7}{section.5}
+\contentsline {subsection}{\numberline {5.1}Non-Uniform Mutation with parameter $b \in \{0.05, 1.0, 10.0, 20.0 \} $}{7}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Gaussian mutation without 1/5-rule and parameter $\sigma \in \{0.05, 0.5, 1.0, 10.0\}$}{9}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Comparison of Uniform Mutation, Gaussian mutation with 1/5 rule and the ‘best’ parameter setting for non-uniform and Gaussian mutation without 1/5 rule.}{10}{subsection.5.3}
+\contentsline {section}{\numberline {6}References}{10}{section.6}
