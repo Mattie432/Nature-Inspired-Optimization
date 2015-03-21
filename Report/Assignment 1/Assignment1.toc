@@ -17,4 +17,5 @@
 \contentsline {subsection}{\numberline {5.1}Non-Uniform Mutation with parameter $b \in \{0.05, 1.0, 10.0, 20.0 \} $}{7}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Gaussian mutation without 1/5-rule and parameter $\sigma \in \{0.05, 0.5, 1.0, 10.0\}$}{9}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Comparison of Uniform Mutation, Gaussian mutation with 1/5 rule and the ‘best’ parameter setting for non-uniform and Gaussian mutation without 1/5 rule.}{10}{subsection.5.3}
-\contentsline {section}{\numberline {6}References}{10}{section.6}
+\contentsline {section}{\numberline {6}Appendix}{10}{section.6}
+\contentsline {section}{\numberline {7}References}{10}{section.7}

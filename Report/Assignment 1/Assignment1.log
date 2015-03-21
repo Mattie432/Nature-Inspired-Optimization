@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  26 FEB 2015 21:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  26 FEB 2015 21:36
 entering extended mode
 **Assignment1.tex
 
@@ -652,7 +652,7 @@ Package gensymb Warning: Not defining \micro.
 
 ("D:\Users\Mattie432\Dropbox\Programming\Java\Nature-Inspired-Optimization\Repo
 rt\Assignment 1\TitlePage/TitlePage.tex"
-<TitlePage/university.jpg, id=75, 580.1675pt x 513.92pt>
+<TitlePage/university.jpg, id=83, 580.1675pt x 513.92pt>
 File: TitlePage/university.jpg Graphic file (type jpg)
 
 <use TitlePage/university.jpg>
@@ -750,7 +750,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-<Task/GraphOriginal.png, id=111, 393.72093pt x 323.70938pt>
+<Task/GraphOriginal.png, id=121, 393.72093pt x 323.70938pt>
 File: Task/GraphOriginal.png Graphic file (type png)
 
 <use Task/GraphOriginal.png>
@@ -842,7 +842,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 12.
 
 
-<ExperimentalResults/Images/NonUniformMutation.png, id=221, 712.16063pt x 372.6
+<ExperimentalResults/Images/NonUniformMutation.png, id=231, 712.16063pt x 372.6
 4218pt>
 File: ExperimentalResults/Images/NonUniformMutation.png Graphic file (type png)
 
@@ -887,7 +887,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 
-<ExperimentalResults/Images/NonUniformMutationBellCurve.png, id=235, 402.00188p
+<ExperimentalResults/Images/NonUniformMutationBellCurve.png, id=245, 402.00188p
 t x 206.27063pt>
 File: ExperimentalResults/Images/NonUniformMutationBellCurve.png Graphic file (
 type png)
@@ -914,7 +914,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 31.
 
 
-<ExperimentalResults/Images/GaussianMutation.png, id=236, 707.64375pt x 382.428
+<ExperimentalResults/Images/GaussianMutation.png, id=246, 707.64375pt x 382.428
 76pt>
 File: ExperimentalResults/Images/GaussianMutation.png Graphic file (type png)
  <use ExperimentalResults/Images/GaussianMutation.png>
@@ -954,7 +954,7 @@ Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
 Missing character: There is no ô in font cmbx12!
 
-<ExperimentalResults/Images/ComparisonOfAlgorithms.png, id=241, 688.07062pt x 4
+<ExperimentalResults/Images/ComparisonOfAlgorithms.png, id=251, 688.07062pt x 4
 15.5525pt>
 File: ExperimentalResults/Images/ComparisonOfAlgorithms.png Graphic file (type 
 png)
@@ -975,160 +975,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
 )
 ("D:\Users\Mattie432\Dropbox\Programming\Java\Nature-Inspired-Optimization\Repo
-rt\Assignment 1\Appendix/Appendix.tex"
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [10 <D:/Users/Mattie432/Dropbox/Programming/Java/Nature-Inspired-Optimization/
-Report/Assignment 1/ExperimentalResults/Images/ComparisonOfAlgorithms.png>]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [11]
-Overfull \hbox (28.26823pt too wide) in paragraph at lines 107--111
-\OT1/cmr/m/n/10 Con-fer-ence (SIECPC), 2011 Saudi In-ter-na-tional , vol., no.,
- pp.1,5, 24-26 April 2011 doi: 10.1109/SIECPC.2011.5876943. 
- []
-
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-)
+rt\Assignment 1\Appendix/Appendix.tex" [10 <D:/Users/Mattie432/Dropbox/Programm
+ing/Java/Nature-Inspired-Optimization/Report/Assignment 1/ExperimentalResults/I
+mages/ComparisonOfAlgorithms.png>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
- [12]
+ [11]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
 
 ("D:\Users\Mattie432\Dropbox\Programming\Java\Nature-Inspired-Optimization\Repo
 rt\Assignment 1\Assignment1.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
-
-
-Package rerunfilecheck Warning: File `Assignment1.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Assignment1.out':
-(rerunfilecheck)             Before: 47A5A21676AB4B65324B7E92A7B42080;1434
-(rerunfilecheck)             After:  6FE5BDB50BF24ECF94B0255E8D68ED96;1481.
+Package rerunfilecheck Info: File `Assignment1.out' has not changed.
+(rerunfilecheck)             Checksum: 86DF2AA8B04424ACA9CE26C57488FF32;1526.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 9928 strings out of 493921
- 151544 string characters out of 3144864
+ 9904 strings out of 493921
+ 151392 string characters out of 3144864
  324189 words of memory out of 3000000
- 12839 multiletter control sequences out of 15000+200000
+ 12841 multiletter control sequences out of 15000+200000
  9902 words of font info for 37 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  51i,6n,72p,932b,1813s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1145,9 +1011,9 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Assignment1.pdf (12 pages, 418860 bytes).
+Output written on Assignment1.pdf (11 pages, 409191 bytes).
 PDF statistics:
- 385 PDF objects out of 1000 (max. 8388607)
- 154 named destinations out of 1000 (max. 500000)
- 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 342 PDF objects out of 1000 (max. 8388607)
+ 128 named destinations out of 1000 (max. 500000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
