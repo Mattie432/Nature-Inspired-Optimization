@@ -1,0 +1,7 @@
+package Assessment2;
+
+import org.moeaframework.problem.AbstractProblem;
+
+public class PPSBP extends AbstractProblem{
+
+}

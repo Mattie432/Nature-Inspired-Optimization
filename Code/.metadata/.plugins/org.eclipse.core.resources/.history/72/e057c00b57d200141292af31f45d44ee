@@ -1,0 +1,18 @@
+package Assessment2;
+
+import org.moeaframework.problem.AbstractProblem;
+
+public class PPSBP extends AbstractProblem{
+
+	private double [][] pEc = new double[3][3]; //density p, young constant E, cost c for each material
+
+	
+	public PPSBP(int numberOfVariables, int numberOfObjectives,
+			int numberOfConstraints) {
+		super(numberOfVariables, numberOfObjectives, numberOfConstraints);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

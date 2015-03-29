@@ -1,0 +1,19 @@
+1427223111274	Delete elements
+1427223738591	Move compilation units
+1427223800278	Move compilation unit
+1427223747108	Move compilation units
+1427223820969	Delete element
+1427228996065	Rename local variable 'u'
+1427473258395	Copy compilation unit
+1427473322009	Copy compilation unit
+1427474808600	Extract local variable 'runSeeds'
+1427474963210	Extract local variable 'run'
+1427479279198	Delete element
+1427484396049	Delete element
+1427484704153	Extract local variable 'load'
+1427485508048	Extract method 'ExtractValuesFromAnalyzer'
+1427486397502	Extract local variable 'algorithmInUse'
+1427486489134	Extract method 'RunTest'
+1427487896273	Delete element
+1427558806132	Rename local variable 'minVal'
+1427659216327	Delete elements

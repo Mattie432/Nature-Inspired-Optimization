@@ -1,0 +1,9 @@
+import org.moeaframework.Analyzer;
+
+
+public class Ana extends Analyzer{
+	public Ana(){
+		
+	}
+
+}

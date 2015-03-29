@@ -1,0 +1,15 @@
+package Assessment2;
+
+import org.moeaframework.problem.AbstractProblem;
+
+public class PPSBP extends AbstractProblem{
+
+	private double [][] pEc = new double[3][3]; //density p, young constant E, cost c for each material
+	
+	public PPSBP() {
+		super(5, 2, 1);
+	}
+	
+	
+
+}

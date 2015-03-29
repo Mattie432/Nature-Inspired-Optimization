@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/MOEAExample/src/FourBarTrustMOEASolver.java"/>
+<listEntry value="/Nature-Inspired-Optimization/src/Assessment2/FourBarTrustMOEASolver.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="FourBarTrustMOEASolver"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="MOEAExample"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Assessment2.FourBarTrustMOEASolver"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Nature-Inspired-Optimization"/>
 </launchConfiguration>

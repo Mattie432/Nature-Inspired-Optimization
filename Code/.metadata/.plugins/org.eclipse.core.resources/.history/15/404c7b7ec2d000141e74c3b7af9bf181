@@ -1,0 +1,55 @@
+package test;
+import org.moeaframework.core.Solution;
+import org.moeaframework.core.variable.EncodingUtils;
+import org.moeaframework.core.variable.RealVariable;
+import org.moeaframework.problem.AbstractProblem;
+
+
+public class FourBarTrussPlanProblem extends AbstractProblem {
+
+	public FourBarTrussPlanProblem() {
+		super(4,2);
+	}
+	
+	private double F =10.0;
+	private double E =2E5;
+	private double L = 200.0;
+	private double sigma = 10.0;
+
+	@Override
+	public void evaluate(Solution solution) {
+		// TODO Auto-generated method stub
+		double[] x = EncodingUtils.getReal(solution);
+		double f1 = 0.0;
+		double f2 = 0.0;	
+		double sqrt2 = Math.sqrt(2);
+		f1 = L*(2*x[0] + sqrt2*x[1] + Math.sqrt(x[2]) + x[3]);
+		f2 = F*L/E * (2/x[0] + 2*sqrt2/x[1] -  2*sqrt2/x[2] + 2/x[3]);
+		
+		solution.setObjective(0, f1);
+		solution.setObjective(1, f2);
+
+	}
+
+	@Override
+	public Solution newSolution() {
+		// TODO Auto-generated method stub
+		Solution solution = new Solution(numberOfVariables, numberOfObjectives);
+		
+		double lowBound1 = F/sigma;
+		double upperBound = 3*lowBound1;
+		double lowBound2 = Math.sqrt(2) * F/sigma;
+		
+		solution.setVariable(0,  new RealVariable(lowBound1, upperBound));  // x_1
+		solution.setVariable(1,  new RealVariable(lowBound2, upperBound));  // x_2
+		solution.setVariable(2,  new RealVariable(lowBound2, upperBound));  // x_2
+		solution.setVariable(3,  new RealVariable(lowBound1, upperBound));  // x_2
+		
+	
+		
+		return solution;
+	}
+	
+	
+	
+}

@@ -1,0 +1,15 @@
+package Assessment2;
+
+import org.moeaframework.problem.AbstractProblem;
+
+public class PPSBP extends AbstractProblem{
+
+	public PPSBP(int numberOfVariables, int numberOfObjectives,
+			int numberOfConstraints) {
+		super(numberOfVariables, numberOfObjectives, numberOfConstraints);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

@@ -1,0 +1,14 @@
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		
+		double EI = ((2*b) / 3) * ( (pEc[0][1]*Math.pow(d_1,3)) + (pEc[1][1]*(Math.pow(d_2,3)-Math.pow(d_1,3))) + (pEc[2][1]*( Math.pow(d_3,3) - Math.pow(d_2,3))) );
+
+	}
+
+}

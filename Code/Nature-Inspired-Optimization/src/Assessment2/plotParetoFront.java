@@ -1,4 +1,5 @@
 package Assessment2;
+
 import java.awt.RenderingHints;
 
 import org.jfree.chart.ChartFactory;

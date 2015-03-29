@@ -1,0 +1,102 @@
+
+
+import org.moeaframework.core.Solution;
+import org.moeaframework.core.variable.EncodingUtils;
+import org.moeaframework.core.variable.RealVariable;
+import org.moeaframework.problem.AbstractProblem;
+
+
+public class TestPinnedPinnedSandwichBeamProblem extends AbstractProblem {
+
+	private double [][] pEc = new double[3][3]; //density p, young constant E, cost c for each material
+
+	public TestPinnedPinnedSandwichBeamProblem() {
+		super(5,2,3);
+
+		//material 1
+		pEc[0][0] = 100.0;
+		pEc[0][1] = 1.60E+09;
+		pEc[0][2] = 500.0;
+		//material 2
+		pEc[1][0] = 2770.0;
+		pEc[1][1] = 7.00E+10;
+		pEc[1][2] = 1500.0;
+		//material 3
+		pEc[2][0] = 7780.0;
+		pEc[2][1] =  2.00E+11;
+		pEc[2][2] = 800.0;
+	}
+
+
+	@Override
+	public void evaluate(Solution solution) {
+		double[] x = EncodingUtils.getReal(solution);
+		double f1 = 0.0; // == v (frequency)
+		double f2 = 0.0; // == cost
+
+		double d_1 = x[0];
+		double d_2 = x[1];
+		double d_3 = x[2];
+
+		double b = x[3];
+		double L = x[4];
+
+		double EI = ((2*b) / 3) * ( (pEc[0][1]*Math.pow(d_1,3)) + (pEc[1][1]*(Math.pow(d_2,3)-Math.pow(d_1,3))) + (pEc[2][1]*( Math.pow(d_3,3) - Math.pow(d_2,3))) );
+		double uL = (2*b) * ( (pEc[0][0] * d_1) + (pEc[1][0] * ( d_2 - d_1 )) + (pEc[2][0] * (d_3 - d_2)) );
+
+		f1 = (Math.PI / ( 2* Math.pow(L,2) )) * (Math.pow((EI / uL),0.5));
+		f2 = (2*b*L) * ( (pEc[0][2] * d_1) + (pEc[1][2] * (d_2 - d_1)) + (pEc[2][2] * (d_3 - d_2)) );
+
+		solution.setObjective(0, f1);
+		solution.setObjective(1, f2);
+
+		double constraintu = 0.0;
+		if( uL > 2800 ){
+			constraintu = uL - 2800;
+		}else if( uL < 2000){
+			constraintu = 2000 - uL;
+		}
+		solution.setConstraint(0, constraintu);
+
+		double material2Width = 0.0;
+		if(d_2 - d_1 > 0.58){
+			material2Width = d_2 - d_1;
+		}else if(d_2 - d_1 < 0.01){
+			material2Width = Math.abs(d_2 - d_1);
+		}
+		solution.setConstraint(1, material2Width);
+
+
+		double material3Width = 0.0;
+		if(d_3 - d_2 > 0.57){
+			material3Width  = d_3 - d_2;
+		}else if (d_3 - d_2 < 0.01){
+			material3Width = Math.abs(d_3 - d_2);
+		}
+		solution.setConstraint(2, material3Width);
+	}
+
+	@Override
+	public Solution newSolution() {
+		Solution solution = new Solution(numberOfVariables, numberOfObjectives,numberOfConstraints);
+
+		solution.setVariable(0,  new RealVariable(0.01, 0.58));     // d1
+		//d2 min value is because the max width of material3 is 0.57. The minimum width of d3 is 0.6
+		//so we need d2 to have a minimum width of 0.03 to make up the difference.
+		
+		//so the max width of material 3 (the top layer) is 0.57 & the minimum width of d3 is 0.6.
+		//d2+material3  = d3
+		//So, if material3 has a max width of 0.57, d2 has to be at least 0.03 in order to keep within d3's bounds of 0.3.
+
+		solution.setVariable(1,  new RealVariable(0.02, 0.59));     // d2
+		solution.setVariable(2,  new RealVariable(0.30, 0.60));     // d3
+
+		solution.setVariable(3,  new RealVariable(0.30, 0.55));     // b (beam width)
+		solution.setVariable(4,  new RealVariable(3.00, 6.00));     // L (beam length)
+
+		return solution;
+	}
+
+
+
+}

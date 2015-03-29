@@ -85,6 +85,7 @@ public class Mutations {
 	 *            : double - Total number of iterations
 	 * @return double - The mutated exponent
 	 */
+	@SuppressWarnings("unused")
 	private static double NonUniformMutationDelta(double t, double y, double b,
 			double T) {
 		Random rand = new Random();

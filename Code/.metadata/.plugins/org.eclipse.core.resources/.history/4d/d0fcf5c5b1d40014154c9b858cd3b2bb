@@ -1,0 +1,14 @@
+import java.io.IOException;
+
+import org.moeaframework.Analyzer;
+
+
+public class Ana extends Analyzer{
+
+	@Override
+	public Analyzer printAnalysis() throws IOException {
+		// TODO Auto-generated method stub
+		return super.printAnalysis();
+	}
+
+}
