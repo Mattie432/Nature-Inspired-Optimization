@@ -1,8 +1,10 @@
 import java.awt.RenderingHints;
 
+import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.NumberAxis;
+import org.jfree.chart.plot.FastScatterPlot;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.StandardXYItemRenderer;
 import org.jfree.chart.renderer.xy.XYItemRenderer;
@@ -14,16 +16,14 @@ import org.jfree.ui.ApplicationFrame;
 
 public class plotParetoFront extends ApplicationFrame {
 
+	/**
+	 * 
+	 */
 	private static final long serialVersionUID = 1L;
 
-	/**
-	 * Constructor, plots the two objective functions of a single run as
-	 * an XY scatter diagram
-	 * @param chartTitle : String - title 
-	 * @param data : float[][] - the values of objective1&2 for each run
-	 */
 	public plotParetoFront(String chartTitle, float[][] data) {
 		super(chartTitle);
+		// TODO Auto-generated constructor stub
 
         final NumberAxis domainAxis = new NumberAxis("Objective 1");
         domainAxis.setAutoRangeIncludesZero(false);
@@ -57,16 +57,10 @@ public class plotParetoFront extends ApplicationFrame {
         setContentPane(panel);
 	}
 
-	/**
-	 * 
-	 * Constructor, plots the two objective functions of a two runs using a
-	 * line chart.
-	 * @param chartTitle : String - title 
-	 * @param data : float[][] - the values of objective1&2 for each run
-	 * @param data2 : float[][] - the values of objective1&2 for each run
-	 */
+	
 	public plotParetoFront(String chartTitle, float[][] data, float[][] data2) {
 		super(chartTitle);
+		// TODO Auto-generated constructor stub
 
         final NumberAxis domainAxis = new NumberAxis("Objective 1");
         domainAxis.setAutoRangeIncludesZero(false);
@@ -102,19 +96,17 @@ public class plotParetoFront extends ApplicationFrame {
 	}
 
 	
-	/**
-	 * Creates a dataset based off the data given
-	 * @param data : float[][] - the values of objective1&2 for each run
-	 * @param seriesname : String - the name of the series
-	 * @return XYSeries - the created data set
-	 */
+	
 	private XYSeries createDataset(float[][] data, String seriesname) {
 
+        // create dataset 1...
         final XYSeries series1 = new XYSeries(seriesname);
+
 
         for(int i = 0; i < data[0].length; i++){
         	series1.add(data[0][i], data[1][i]);
         }
+        
         
         return series1;
 
